@@ -13,9 +13,7 @@ def valid_parenthese(args):
     :return: true or false,  true means the parentheses met the request, otherwise it is false
     """
     print('s = "{}"'.format(args))
-    # valid_str = input(args)
 
-    # str_dict = {"(": 0, "[": 1,  "{": 2, "}": 3, "]": 4, ")": 5}
     str_dict = {"(": ")", "{": "}", "[": "]"}
     list_str = list(args)
     tmp = []
@@ -55,7 +53,7 @@ if __name__ == "__main__":
     result = valid_parenthese(get_test_strs(test_string_len))
     print(result)
 
-
+"""test datas"""
 # Example 1:
 # Input: s = "()"
 # Output: true
