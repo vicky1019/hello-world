@@ -14,7 +14,7 @@ config = Config()
 
 
 class TxtExtract():
-    '''文本抽取'''
+    '''txt extraction'''
 
     @staticmethod
     def stop_words(internet_stop):
